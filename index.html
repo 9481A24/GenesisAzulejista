@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gênesis Azulejista — Porcelanato Lastra</title>
+  <meta name="description" content="Gênesis Azulejista — Assentamento e vendas de porcelanato lastra. Atendemos Belo Horizonte e região. Contato: WhatsApp" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <style>
+    :root{
+      --bg:#0b0b0b; /* near black */
+      --accent:#ffd400; /* yellow */
+      --muted:#f4f4f4;
+      --card:#111111;
+      --maxw:1100px;
+      --radius:14px;
+      --shadow:0 6px 24px rgba(0,0,0,0.45);
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#070707 0%,#0f0f0f 100%);color:var(--muted);-webkit-font-smoothing:antialiased}
+    .container{max-width:var(--maxw);margin:28px auto;padding:20px}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:58px;height:58px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#ffca00);display:flex;align-items:center;justify-content:center;color:#000;font-weight:700}
+    .brand h1{margin:0;font-size:18px;line-height:1}
+    .brand p{margin:0;font-size:12px;color:#ddd}
+
+    nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-weight:600}
+
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;margin-top:20px;align-items:center}
+    .hero-card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:28px;border-radius:var(--radius);box-shadow:var(--shadow)}
+    .kicker{display:inline-block;padding:6px 10px;background:rgba(255,212,0,0.12);color:var(--accent);border-radius:999px;font-weight:700;font-size:12px}
+    h2{margin:12px 0 8px;font-size:28px;color:var(--muted)}
+    p.lead{color:#d9d9d9;margin:0 0 18px}
+    .cta-row{display:flex;gap:12px;align-items:center}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:12px;font-weight:700;border:0;cursor:pointer}
+    .btn-primary{background:var(--accent);color:#000}
+    .btn-wpp{background:#25D366;color:#fff}
+    .features{display:flex;gap:10px;margin-top:18px}
+    .feature{background:rgba(255,255,255,0.02);padding:10px;border-radius:10px;font-size:13px}
+
+    /* Right column image */
+    .hero-image{border-radius:12px;overflow:hidden;height:100%;min-height:300px;background:#222;display:flex;align-items:center;justify-content:center}
+    .hero-image img{width:100%;height:100%;object-fit:cover;display:block}
+
+    /* Services */
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:22px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:18px;border-radius:12px}
+    .price{font-size:18px;font-weight:800;color:var(--accent)}
+
+    /* Testimonials & pricing */
+    .split{display:grid;grid-template-columns:1fr 360px;gap:18px;margin-top:18px}
+    .testimonial{font-size:14px;color:#dcdcdc}
+
+    footer{margin-top:36px;padding:18px;border-radius:12px;background:transparent;display:flex;justify-content:space-between;align-items:center}
+
+    /* Responsive */
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr;}
+      .split{grid-template-columns:1fr}
+      nav{display:none}
+    }
+
+    /* Floating WhatsApp */
+    .floating-wpp{position:fixed;right:18px;bottom:18px;background:var(--accent);color:#000;padding:12px 14px;border-radius:999px;box-shadow:0 12px 36px rgba(0,0,0,0.35);display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800}
+
+    /* Simple form styles */
+    form input, form textarea, .select{width:100%;padding:10px;border-radius:8px;border:0;background:#0c0c0c;color:var(--muted);outline:1px solid rgba(255,255,255,0.03)}
+    form button{margin-top:10px}
+
+    .map{border-radius:10px;overflow:hidden;height:220px}
+
+    small.muted{color:#bdbdbd}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">GZ</div>
+        <div>
+          <h1>Gênesis Azulejista</h1>
+          <p>Porcelanato lastra • Belo Horizonte e região</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#precos">Preços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-card">
+        <span class="kicker">Profissional & Rápido</span>
+        <h2>Transforme seu ambiente com porcelanato lastra</h2>
+        <p class="lead">Instalação, venda e acabamento perfeito. Peças grandes, juntas mínimas e visual de alto padrão. Orçamento rápido pelo WhatsApp.</p>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contato">Peça um orçamento</a>
+          <a class="btn btn-wpp" href="https://wa.me/5532995439612?text=Ol%C3%A1%20G%C3%AAnesis%2C%20quero%20um%20or%C3%A7amento%20para%20porcelanato%20lastra" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+
+        <div class="features" aria-hidden>
+          <div class="feature">✅ Instalação profissional</div>
+          <div class="feature">✅ Peças 120x260cm (lastra)</div>
+          <div class="feature">✅ Acabamento impecável</div>
+        </div>
+
+        <div style="margin-top:18px">
+          <h3 style="margin:0 0 8px">Frase de destaque</h3>
+          <p style="margin:0;color:#e9e9e9"><strong>Trabalhamos com rapidez e honestidade — seu ambiente com acabamento de alto padrão.</strong></p>
+        </div>
+
+        <div style="margin-top:18px">
+          <small class="muted">Atendimento: WhatsApp (32) 99543-9612 • Instagram: <a href="https://instagram.com/genesisazulejista" target="_blank" style="color:var(--accent);text-decoration:none">@genesisazulejista</a></small>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <!-- Substitua pela sua foto real de porcelanato lastra -->
+        <img src="https://images.unsplash.com/photo-1578894388491-9d1b4d1e3b7a?auto=format&fit=crop&w=1200&q=60" alt="Porcelanato lastra" />
+      </div>
+    </section>
+
+    <section id="servicos" style="margin-top:18px">
+      <h3 style="margin-bottom:12px">Serviços</h3>
+      <div class="services">
+        <div class="card">
+          <h4>Assentamento de porcelanato</h4>
+          <p class="testimonial">Instalação com nivelamento, cortes precisos e rejunte minimalista. Material não incluído.</p>
+          <div style="margin-top:8px" class="price">R$ 65/m² <small style="color:#bbb;font-weight:600">(a partir)</small></div>
+        </div>
+
+        <div class="card">
+          <h4>Venda de peças (lastra)</h4>
+          <p class="testimonial">Fornecemos porcelanato lastra nas principais marcas e acabamentos — consulte estoque.</p>
+          <div style="margin-top:8px" class="price">Consulte preço</div>
+        </div>
+
+        <div class="card">
+          <h4>Recortes e acabamentos</h4>
+          <p class="testimonial">Acabamento em rodapés, nichos e detalhes em cozinha e banheiro.</p>
+          <div style="margin-top:8px" class="price">Orçamento sob medida</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="card">
+        <h3>Avaliações</h3>
+        <div style="margin-top:12px">
+          <p class="testimonial"><strong>Maria P.</strong> — "Serviço excelente, rapidez e acabamento perfeito. Recomendo!"</p>
+          <p class="testimonial"><strong>João R.</strong> — "Profissionalismo do começo ao fim. Acabamento nota 10."</p>
+        </div>
+
+        <div style="margin-top:14px">
+          <h4>Localização</h4>
+          <div class="map" style="margin-top:8px">
+            <!-- Mapa centrado em Belo Horizonte; substitua pela sua localização se quiser -->
+            <iframe loading="lazy" width="100%" height="100%" style="border:0" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3037.1234567890123!2d-43.9345!3d-19.9167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1695240000000" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <aside id="contato" class="card">
+        <h3>Peça um orçamento</h3>
+        <p class="testimonial">Preencha abaixo ou envie mensagem direta pelo WhatsApp — resposta rápida.</p>
+
+        <form id="leadForm" onsubmit="handleForm(event)">
+          <label style="font-size:13px;margin-top:8px;display:block">Nome</label>
+          <input type="text" name="nome" required />
+          <label style="font-size:13px;margin-top:8px;display:block">Telefone / WhatsApp</label>
+          <input type="text" name="telefone" required placeholder="(00) 00000-0000" />
+          <label style="font-size:13px;margin-top:8px;display:block">Mensagem / medidas</label>
+          <textarea name="mensagem" rows="4" placeholder="Diga o que precisa: área em m², fotos, endereço..."></textarea>
+          <button class="btn btn-primary" type="submit">Enviar pedido</button>
+        </form>
+
+        <div style="margin-top:12px;font-size:13px"><small class="muted">Ou envie direto: <a href="https://wa.me/5532995439612?text=Ol%C3%A1%20G%C3%AAnesis%2C%20quero%20um%20or%C3%A7amento" target="_blank" style="color:var(--accent);text-decoration:none">WhatsApp (32) 99543-9612</a></small></div>
+
+        <div style="margin-top:18px">
+          <h4>Formas de pagamento</h4>
+          <p class="testimonial">Pix, cartão (parcelado) e boleto — aceitamos Mercado Pago.</p>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <div>
+        <strong>Gênesis Azulejista</strong>
+        <div style="font-size:13px;color:#bdbdbd">Atende Belo Horizonte e região • Instagram: <a href="https://instagram.com/genesisazulejista" style="color:var(--accent);text-decoration:none">@genesisazulejista</a></div>
+      </div>
+      <div style="text-align:right;font-size:13px;color:#bdbdbd">WhatsApp: <a href="https://wa.me/5532995439612?text=Ol%C3%A1" style="color:var(--accent);text-decoration:none">(32) 99543-9612</a></div>
+    </footer>
+  </div>
+
+  <a class="floating-wpp" href="https://wa.me/5532995439612?text=Ol%C3%A1%20G%C3%AAnesis%2C%20quero%20um%20or%C3%A7amento" target="_blank" rel="noopener">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.52 3.48A11.94 11.94 0 0 0 12 0C5.373 0 .001 5.373 0 12c0 2.115.554 4.176 1.604 5.992L0 24l6.354-1.641A11.948 11.948 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.223-1.256-6.236-3.48-8.52z" fill="#000" opacity="0.06"/><path d="M20.52 3.48A11.94 11.94 0 0 0 12 0C5.373 0 .001 5.373 0 12c0 2.115.554 4.176 1.604 5.992L0 24l6.354-1.641A11.948 11.948 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.223-1.256-6.236-3.48-8.52z" fill="#000"/></svg>
+    WhatsApp
+  </a>
+
+  <script>
+    function handleForm(e){
+      e.preventDefault();
+      const form = e.target;
+      const nome = form.nome.value.trim();
+      const tel = form.telefone.value.trim();
+      const msg = form.mensagem.value.trim();
+      // Construir link do WhatsApp com mensagem pronta
+      const text = encodeURIComponent(`Ol\u00E1 ${nome}, gostaria de um or\u00E7amento. Contato: ${tel}. Mensagem: ${msg}`);
+      window.open(`https://wa.me/5532995439612?text=${text}`,'_blank');
+    }
+  </script>
+</body>
+</html>
